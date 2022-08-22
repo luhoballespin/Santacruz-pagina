@@ -5,7 +5,8 @@
 }
     
 body {
-    background-color: white;
+    background-color: white; 
+    display: flex-column;   
 }
 header {
     background-color: white;
@@ -114,7 +115,7 @@ footer {
     color: rgb(202, 4, 4);
 }
 .productosDestacados{
-    display: grid;
+    display: -moz-grid-group;
     margin-top: 80px;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -125,8 +126,8 @@ footer {
     font-family: 'Bebas Neue', cursive;
 }
 .productosDestacados img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 90px;
 }
