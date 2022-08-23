@@ -10,20 +10,26 @@ body {
 }
 header {
     background-color: white;
-    padding: 0px;
+    padding: 5px;
     position: sticky;
     top: 0px;
-    z-index: 100;
+    z-index: 100; 
+    
     font-family: 'Roboto Condensed', sans-serif; 
     
 }
 .header__logo {
-    animation: ease-in animat 2s;
+    animation: ease-in animat 2s; 
+    max-width: 200px; 
+    max-height: 200px;
+
+    
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(231, 82, 45);
-    font-size: 1.3rem;
-    margin: 0px 13px;
+    color: rgb(221, 35, 35);
+    font-size: 1.4rem;
+    margin: 0px 15px; 
+    
 }
 .navbar-collapse {
     flex-grow: initial;
@@ -40,13 +46,13 @@ h1{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     margin-top: 10px;
-    color: rgb(14, 1, 1);
+    color: rgb(0, 0, 0);
 }
 
 /*FOOTER*/
 
 footer {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(236, 231, 231);
 }
 .contieneFooter{
     display: flex;
@@ -63,7 +69,7 @@ footer {
     display: flex;
     height: auto;
     width: auto;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 .boxFooter p{
     max-width: 100%;
@@ -103,7 +109,18 @@ footer {
     margin-top: 20px;
     color: red;
     font-family: 'Times New Roman', Times, serif;
-}
+} 
+.ajuste, .footer__redes__ig {
+    transition: all 1s;
+    font-size: 6.5vh;
+    padding-right: 0.5vh; }
+  
+ .footer__redes__ig {
+    color: blueviolet; } 
+  
+ :hover.footer__redes__ig {
+    transform: rotateY(720deg); }
+  
 
 
 /*INDEX*/
@@ -111,11 +128,12 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(202, 4, 4);
+    font-style:italic  ;
+    color: rgb(218, 187, 11);
 }
 .productosDestacados{
-    display: -moz-grid-group;
+    display:inline-flexbox ; 
+    
     margin-top: 80px;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -310,7 +328,7 @@ button{
         font-size: 16px;
     }
     .envio h2{
-        font-size: 20px;
+        font-size: 25px;
     }
     h1{
         font-size: 24px;
@@ -327,10 +345,11 @@ button{
     }
     .quienes__container{
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
+       
     }
     .quienes__textContenido{
-        font-size: 16px;
+        font-size: 18px;
     }
     .galeria__titulo{
         font-size: 20px;
