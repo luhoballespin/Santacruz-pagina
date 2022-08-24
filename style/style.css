@@ -9,24 +9,26 @@ body {
     display: flex-column;   
 }
 header {
-    background-color: white;
+    background-color: rgb(243, 240, 240);
     padding: 5px;
     position: sticky;
     top: 0px;
     z-index: 100; 
-    
-    font-family: 'Roboto Condensed', sans-serif; 
+    text-shadow: 1px 10px 4px rgba(0, 0, 0, 0.733);
+    font-family: 'Roboto Condensed', sans-serif;  
+    text-decoration: underline;
     
 }
 .header__logo {
     animation: ease-in animat 2s; 
     max-width: 200px; 
-    max-height: 200px;
+    max-height: 200px; 
+    
 
     
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(221, 35, 35);
+    color: rgb(71, 58, 58);
     font-size: 1.4rem;
     margin: 0px 15px; 
     
@@ -128,9 +130,12 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
-    font-style:italic  ;
-    color: rgb(218, 187, 11);
-}
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(234, 190, 63); 
+    
+    letter-spacing: 4px; 
+} 
+
 .productosDestacados{
     display:inline-flexbox ; 
     
@@ -141,7 +146,7 @@ footer {
 }
 .productosDestacados h2{
     color: rgb(202, 4, 4);
-    font-family: 'Bebas Neue', cursive;
+    font-family:Verdana, Geneva
 }
 .productosDestacados img{
     width: 200px;
