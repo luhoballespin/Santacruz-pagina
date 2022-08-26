@@ -16,25 +16,30 @@ header {
     z-index: 100; 
     text-shadow: 1px 10px 4px rgba(0, 0, 0, 0.733);
     font-family: 'Roboto Condensed', sans-serif;  
-    /* text-decoration: underline; */
+    /* text-decoration: underline; */ 
+
     
 }
 .header__logo {
     animation: ease-in animat 2s; 
     max-width: 200px; 
-    max-height: 200px; 
+    max-height: 200px;  
+    
     
 
     
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(71, 58, 58);
+    color: rgb(226, 13, 13);
     font-size: 1.4rem;
     margin: 0px 15px; 
+    animation-name: nav-animated; 
+    
+ 
     
 }
 .navbar-collapse {
-    flex-grow: initial;
+    flex-grow: initial; 
 }
 @keyframes animat {
     0% {
@@ -49,7 +54,8 @@ h1{
     font-family: 'Roboto Condensed', sans-serif;
     margin-top: 10px;
     color: rgb(0, 0, 0);
-}
+}  
+
 
 /*FOOTER*/
 
@@ -130,8 +136,9 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(234, 190, 63); 
+    font-family: 'Cinzel Decorative', cursive;
+    color:rgb(223, 171, 41); 
+    text-shadow: 5px 6px 8px rgba(0, 0, 0, 0.733);
     
     letter-spacing: 4px; 
 } 
@@ -145,14 +152,15 @@ footer {
     text-align: center;
 }
 .productosDestacados h2{
-    color: rgb(202, 4, 4);
-    font-family:Verdana, Geneva
+    color: rgb(52, 54, 146); 
+    font-family: 'Cinzel Decorative', cursive; 
+    
 }
 .productosDestacados img{
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 
@@ -172,10 +180,14 @@ footer {
     margin-top: 60px;
     margin-bottom: 30px;
     padding: 10px;
-}
+}  
+
+.animate__fadeInUp { 
+    color: rgb(52, 54, 146); }
+
 .tarjeta a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .tarjeta a:hover{
     text-decoration: underline;
