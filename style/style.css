@@ -357,12 +357,17 @@ button{
         height: auto;
         width: auto;
     }
-    .productosDestacados, .imagenkit { 
-        flex-direction: column;
-        padding: 30px 20px;
+    .productosDestacados img{ 
+        width: 100%;
         height: auto;
-        width: auto; 
-        ; 
+      
+    
+    } 
+
+    .boxFooter { 
+        width: 100%;
+        height: auto;
+      
     }
     .menu li {
         margin: 0px 8px;
