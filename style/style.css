@@ -175,47 +175,50 @@ footer {
 .tarjeta{
     display: flex;
     font-family: 'Poppins', sans-serif;
-    border-style: solid;
-    width: 22%;
+    border-style:outset ;
+    width: 40%; 
     margin-top: 10px;
     margin-bottom: 30px;
-    padding: 100px;
+    padding: 80px;
 }  
 
 .animate__fadeInUp { 
     color: rgb(52, 54, 146); }
 
 .tarjeta a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    text-decoration:dashed ;
+    color: rgb(0, 0, 0); 
+    font-style: italic;
 }
 .tarjeta a:hover{
-    text-decoration: underline;
+    text-decoration:none ;
 }
 .tarjeta .img__container{
-    overflow: hidden;
+    overflow:visible ;
 }
 .tarjeta .imagen__tarjeta img{
-    width: 99.9%;
-    transition: all 0.5s;
+    width: 100%;
+    transition: all 0.8s;
 } 
 .tarjeta:hover .imagen__tarjeta img{
-    transform: scale(0.9);
+    transform: scale(0.7);
 }
-.informacion__tarjeta{
-    margin-top: 10px;
-}
+.informacion__tarjeta {
+    margin-top: 20px;
+} 
+.info
 .pagination{
     justify-content: center;
 }
 .targeta, .imagen__tarjetaD img { 
-    width: 99.9%;
+    width: 150%;
     transition: all 0.5s; 
 } 
 .tarjeta:hover .imagen__tarjetaD img{
     transform: scale(0.9); 
-}
-/*PRESUPUESTOS*/
+} 
+
+
 
 .datosPresupuestos{
     padding: 20px 0;
