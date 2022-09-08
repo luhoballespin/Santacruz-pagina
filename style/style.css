@@ -361,7 +361,7 @@ button{
     }
 
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 383px) {
     header{
         flex-direction: column;
         align-items: center;
@@ -383,14 +383,21 @@ button{
       
     
     }  
-
+    .tarjeta{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        border-style:outset ;
+        width: 40%; 
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }  
     .tarjeta a{
         text-decoration:dashed ;
         color: rgb(0, 0, 0); 
         font-style: italic; 
         display:block ; 
-        width: 100%;
-        height: auto;
+       
        font: size 20px;;
     }
     .tarjeta a:hover{
