@@ -382,6 +382,36 @@ button{
         height: auto;
       
     
+    }  
+
+    .tarjeta a{
+        text-decoration:dashed ;
+        color: rgb(0, 0, 0); 
+        font-style: italic; 
+        display:block ; 
+        width: 100%;
+        height: auto;
+       font: size 20px;;
+    }
+    .tarjeta a:hover{
+        text-decoration:none ;
+    }
+    .tarjeta .img__container{
+        overflow:visible ;
+    }
+    .tarjeta .imagen__tarjeta img{
+        width: 100%;
+        transition: all 0.8s; 
+        width: 100%;
+        height: auto;
+      
+    } 
+    .tarjeta:hover .imagen__tarjeta img{
+        transform: scale(0.7);
+    } 
+    .informacion__tarjeta {
+        margin-top: 20px; 
+        display: contents;
     } 
 
     .boxFooter iframe{ 
