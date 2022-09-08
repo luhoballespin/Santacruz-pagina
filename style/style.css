@@ -177,9 +177,9 @@ footer {
     font-family: 'Poppins', sans-serif;
     border-style: solid;
     width: 22%;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 100px;
 }  
 
 .animate__fadeInUp { 
