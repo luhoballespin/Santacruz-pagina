@@ -348,8 +348,8 @@ button{
     }  
     .header__logo {
         animation: ease-in animat 2s; 
-        max-width: 100px; 
-        max-height: 100px;  
+        max-width: 200px; 
+        max-height: 200px;  
     }    
     
     .menu li {
