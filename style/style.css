@@ -338,6 +338,23 @@ button{
     .galeria__container{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+    } 
+    .productosDestacados, .h2 { 
+        font-size: 10; 
+        height: auto;
+        width: auto;
+    }
+    .productosDestacados img{ 
+        width: 100%;
+        height: auto;
+      
+    
+    } 
+
+    .boxFooter iframe { 
+        width: 100%;
+        height: auto;
+      
     }
 
 }
@@ -364,7 +381,7 @@ button{
     
     } 
 
-    .boxFooter { 
+    .boxFooter iframe{ 
         width: 100%;
         height: auto;
       
