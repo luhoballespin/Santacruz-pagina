@@ -347,14 +347,26 @@ button{
         align-items: center;
     }  
     .header__logo {
-        animation: ease-in animat 2s; 
+        animation: ease-in animat 2s;                                                                                                                                                                                 
         max-width: 200px; 
         max-height: 200px;  
-    }    
-    
+    }                               
+   
+    .productosDestacados, .h2 { 
+        font-size: 10; 
+        height: auto;
+        width: auto;
+    }
+    .productosDestacados, .imagenkit { 
+        flex-direction: column;
+        padding: 30px 20px;
+        height: auto;
+        width: auto; 
+        ; 
+    }
     .menu li {
         margin: 0px 8px;
-        font-size: 16px;
+        font-size: 10                                                                                                                                px;
     }
     .envio h2{
         font-size: 25px;
