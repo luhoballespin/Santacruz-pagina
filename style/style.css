@@ -129,8 +129,7 @@ footer {
  :hover.footer__redes__ig {
     transform: rotateY(720deg); }
   
-
-
+ 
 /*INDEX*/
 .envio{
     text-align: center;
@@ -154,15 +153,16 @@ footer {
 .productosDestacados h2{
     color: rgb(52, 54, 146); 
     font-family: 'Cinzel Decorative', cursive; 
+    text-align: center ; 
     
 }
 .productosDestacados img{
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+    
 }
-
 
 /*PRODUCTOS*/
 
@@ -198,7 +198,7 @@ footer {
 .tarjeta .imagen__tarjeta img{
     width: 99.9%;
     transition: all 0.5s;
-}
+} 
 .tarjeta:hover .imagen__tarjeta img{
     transform: scale(0.9);
 }
@@ -208,7 +208,13 @@ footer {
 .pagination{
     justify-content: center;
 }
-
+.targeta, .imagen__tarjetaD img { 
+    width: 99.9%;
+    transition: all 0.5s; 
+} 
+.tarjeta:hover .imagen__tarjetaD img{
+    transform: scale(0.9); 
+}
 /*PRESUPUESTOS*/
 
 .datosPresupuestos{
@@ -339,7 +345,13 @@ button{
     header{
         flex-direction: column;
         align-items: center;
-    }
+    }  
+    .header__logo {
+        animation: ease-in animat 2s; 
+        max-width: 100px; 
+        max-height: 100px;  
+    }    
+    
     .menu li {
         margin: 0px 8px;
         font-size: 16px;
