@@ -171,7 +171,8 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+} 
+
 .tarjeta{
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -190,7 +191,8 @@ footer {
 .tarjeta a{
     text-decoration:dashed ;
     color: rgb(0, 0, 0); 
-    font-style: italic;
+    font-style: italic; 
+    font-display: center;
 }
 .tarjeta a:hover{
     text-decoration:none ;
