@@ -175,8 +175,10 @@ footer {
 .tarjeta{
     display: flex;
     font-family: 'Poppins', sans-serif;
-    border-style:outset ;
-    width: 40%; 
+    border-style:inset  ;
+    width: 40%;  
+    border-radius: 20px;  
+    border-color:  rgb(140, 101, 212);
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 80px;
@@ -365,17 +367,23 @@ button{
         height: auto; 
         flex-wrap:nowrap;
         font-family: 'Poppins', sans-serif;
-        border-style:double ;
-        
+        border-style:inset ; 
+        border-radius: 20px;  
+        border-color:  rgb(110, 72, 182);
+        accent-color: black;
         margin-top: 10px;
         margin-bottom: 30px;
-        padding: 0px; 
+        padding: 0px;  
+        margin-left: 20px; 
+        margin-right: 20px;
+        
     }  
     .tarjeta a{
         text-decoration:dashed ;
         color: rgb(0, 0, 0); 
         font-style: italic; 
         display:block ; 
+       
        
        font: size 20px;;
     }
@@ -390,18 +398,19 @@ button{
         
         width: 60%;
         height: auto; 
-        margin: 30px;
+        margin-top: 30px;
         transition: transform 0.2s 0.05s;
-      
+        margin-left: 50px;
     } 
     .tarjeta:hover .imagen__tarjeta img{
         transform: scale(0.7);
     } 
     .informacion__tarjeta {
         margin-top: 20px; 
-        display:-ms-flexbox; 
+        margin-left: 30px;
         width: 100%;
-        height: auto
+        height: auto 
+        
     }  
 
 }
@@ -435,11 +444,13 @@ button{
         height: auto; 
         flex-wrap:nowrap;
         font-family: 'Poppins', sans-serif;
-        border-style:double ;
+        border-style:inset ; 
         
         margin-top: 10px;
         margin-bottom: 30px;
-        padding: 0px; 
+        padding: 20px;
+        margin-left: 20px; 
+        margin-right: 20px; 
     }  
     .tarjeta a{
         text-decoration:dashed ;
