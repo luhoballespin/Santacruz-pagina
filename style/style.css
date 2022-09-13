@@ -170,19 +170,22 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+
 } 
 
 .tarjeta{
-    display: flex;
+    display:grid;
     font-family: 'Poppins', sans-serif;
-    border-style:inset  ;
-    width: 40%;  
+    
+    width: 30%;  
     border-radius: 20px;  
-    border-color:  rgb(140, 101, 212);
+    border-color:  rgb(164, 139, 219);
     margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 80px;
+    margin-bottom: 40px;
+    padding: 15px; 
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to bottom, #dbd4d4 0%, #ad5d5d 100%) 1; 
 }  
 
 .animate__fadeInUp { 
@@ -202,7 +205,8 @@ footer {
 }
 .tarjeta .imagen__tarjeta img{
     width: 100%;
-    transition: all 0.8s;
+    transition: all 0.8s; 
+    border-radius: 10px;
 } 
 .tarjeta:hover .imagen__tarjeta img{
     transform: scale(0.7);
