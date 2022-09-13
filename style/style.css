@@ -185,7 +185,8 @@ footer {
     margin-bottom: 40px;
     padding: 15px; 
     border: 10px solid transparent; 
-    border-image: linear-gradient(to bottom, #dbd4d4 0%, #ad5d5d 100%) 1; 
+    border-image: linear-gradient(to bottom, #ffffff 70%, #3814da 150%) 1;  
+    border-radius: 20px;
 }  
 
 .animate__fadeInUp { 
