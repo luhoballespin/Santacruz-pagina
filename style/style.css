@@ -287,18 +287,19 @@ width: 600px;
 }
 .galeria__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 5px;
+    grid-row-gap: 20px;
     grid-column-gap: 5px;
     justify-items: center;
 }
 .galeria__container--img {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    width: 350px;
-    height: 300px;
-    border-style: solid;
+    width: 500px;
+    height: 350px;
+    border-style:ridge ; 
+    border-color:rgb(136, 136, 216) ;
 }
 
 
@@ -423,9 +424,25 @@ width: 600px;
         width: 100%;
         height: auto 
         
-    }  
+    }    
 
-}
+    .galeria__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        justify-items: center;
+    }
+    .galeria__container--img {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 200px;
+        border-style: solid;  
+        background-color: white; 
+
+}   
 @media only screen and (max-width: 393px) {
     header{
         flex-direction: column;
@@ -536,5 +553,55 @@ width: 600px;
     .galeria__container{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
+    } 
+    .quienes__container{
+        display: flex;
+        padding: 10px;
+        margin-top: 30px; 
+        width: 100%; 
+        height: auto; 
+    }  
+    .quienes__container img { 
+        height: 200px; 
+        width: 300px; 
+        background-color: white; 
+       display: flex-column;   
+    }
+        
+        .quienes__text{
+            padding: 20px;
+            font-family: 'BIZ UDMincho', serif;
+        }
+        .quienes__textContenido{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 2;
+            color: rgb(12, 3, 3);
+        }
+        .galeria__titulo{
+            text-align: center;
+            font-size: 25px;
+            margin-top: 30px;
+            font-family: 'Bakbak One', cursive;
+        }
+        .galeria__container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-row-gap: 5px;
+            grid-column-gap: 5px;
+            justify-items: center;
+        }
+        .galeria__container--img {
+            margin-top: 100px;
+            margin-bottom: 20px;
+            width: 300px;
+            height: 200px;
+            border-style: solid;  
+            background-color: white; 
+            
+
+        }
+
     }
 }
