@@ -353,44 +353,23 @@ button{
       
     
     } 
-
+ 
     .boxFooter iframe { 
         width: 100%;
         height: auto;
-      
-    }
+       
+    } 
 
-}
-@media only screen and (max-width: 383px) {
-    header{
-        flex-direction: column;
-        align-items: center;
-    }  
-    .header__logo {
-        animation: ease-in animat 2s;                                                                                                                                                                                 
-        max-width: 200px; 
-        max-height: 200px;  
-    }                               
-   
-    .productosDestacados, .h2 { 
-        font-size: 10; 
-        height: auto;
-        width: auto;
-    }
-    .productosDestacados img{ 
-        width: 100%;
-        height: auto;
-      
-    
-    }  
     .tarjeta{
-        display: flex;
+        width: 100%; 
+        height: auto; 
+        flex-wrap:nowrap;
         font-family: 'Poppins', sans-serif;
-        border-style:outset ;
-        width: 40%; 
+        border-style:double ;
+        
         margin-top: 10px;
         margin-bottom: 30px;
-        padding: 0px;
+        padding: 0px; 
     }  
     .tarjeta a{
         text-decoration:dashed ;
@@ -407,10 +386,12 @@ button{
         overflow:visible ;
     }
     .tarjeta .imagen__tarjeta img{
-        width: 100%;
-        transition: all 0.8s; 
-        width: 100%;
-        height: auto;
+       
+        
+        width: 60%;
+        height: auto; 
+        margin: 30px;
+        transition: transform 0.2s 0.05s;
       
     } 
     .tarjeta:hover .imagen__tarjeta img{
@@ -418,8 +399,80 @@ button{
     } 
     .informacion__tarjeta {
         margin-top: 20px; 
-        display: contents;
+        display:-ms-flexbox; 
+        width: 100%;
+        height: auto
+    }  
+
+}
+@media only screen and (max-width: 393px) {
+    header{
+        flex-direction: column;
+        align-items: center; 
+        
+    }  
+    .header__logo {
+        animation: ease-in animat 2s;                                                                                                                                                                                 
+        max-width: 200px; 
+        max-height: 200px;  
+    }                               
+   
+    .productosDestacados, .h2 { 
+        font-size: 10; 
+        height: auto;
+        
+        width: 100%;
+        
+    }
+    .productosDestacados img{ 
+        width: 100%;
+        height: auto;
+      
+    
+    }  
+    .tarjeta{
+        width: 100%; 
+        height: auto; 
+        flex-wrap:nowrap;
+        font-family: 'Poppins', sans-serif;
+        border-style:double ;
+        
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 0px; 
+    }  
+    .tarjeta a{
+        text-decoration:dashed ;
+        color: rgb(0, 0, 0); 
+        font-style: italic; 
+        display:block ; 
+       
+       font: size 20px;;
+    }
+    .tarjeta a:hover{
+        text-decoration:none ;
+    }
+    .tarjeta .img__container{
+        overflow:visible ;
+    }
+    .tarjeta .imagen__tarjeta img{
+       
+        
+        width: 60%;
+        height: auto; 
+        margin: 30px;
+        transition: transform 0.2s 0.05s;
+      
     } 
+    .tarjeta:hover .imagen__tarjeta img{
+        transform: scale(0.7);
+    } 
+    .informacion__tarjeta {
+        margin-top: 20px; 
+        display:-ms-flexbox; 
+        width: 100%;
+        height: auto
+    }  
 
     .boxFooter iframe{ 
         width: 100%;
