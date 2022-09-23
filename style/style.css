@@ -411,14 +411,14 @@ width: 600px;
         width: 60%;
         height: auto; 
         margin-top: 30px;
-        transition: transform 0.2s 0.05s;
+        transition: transform 1.0s 0.05s;
         margin-left: 50px;
     } 
     .tarjeta:hover .imagen__tarjeta img{
-        transform: scale(0.7);
+        transform: scale(1.2);
     } 
     .informacion__tarjeta {
-        margin-top: 20px; 
+        margin-top: 40px; 
         margin-left: 10px;
         width: 100%;
         height: auto 
