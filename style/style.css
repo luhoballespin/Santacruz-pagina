@@ -504,14 +504,15 @@ width: 600px;
       
     } 
     .tarjeta:hover .imagen__tarjeta img{
-        transform: scale(0.7);
+        transform: scale(1.4);
     } 
     .informacion__tarjeta {
-        margin-top: 20px; 
-        display:-ms-flexbox; 
+        margin-top: 40px; 
+        margin-left: 10px;
         width: 100%;
-        height: auto
-    }  
+        height: auto 
+        
+    }    
 
     .boxFooter iframe{ 
         width: 100%;
