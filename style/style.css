@@ -131,36 +131,32 @@ footer {
   
  
 /*INDEX*/
-.envio{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    font-family: 'Cinzel Decorative', cursive;
-    color:rgb(223, 171, 41); 
-    text-shadow: 5px 6px 8px rgba(0, 0, 0, 0.733);
-    
-    letter-spacing: 4px; 
-} 
+
 
 .productosDestacados{
     display:inline-flexbox ; 
-    
-    margin-top: 80px;
+   
+    margin-top: 40px;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     text-align: center;
 }
 .productosDestacados h2{
-    color: rgb(52, 54, 146); 
+    color: rgb(230, 224, 224); 
     font-family: 'Cinzel Decorative', cursive; 
     text-align: center ; 
-    
+    background: linear-gradient(rgb(9, 79, 184),rgb(212, 58, 58)) ;
+    border-radius: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .productosDestacados img{
     width: 500px;
     height: 300px;
-    margin-top: 10px;
-    margin-bottom: 100px; 
+    margin-top: 5px;
+    margin-bottom: 100px;  
+    border-radius: 20px;
     
 }
 
