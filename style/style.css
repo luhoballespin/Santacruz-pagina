@@ -492,10 +492,10 @@ width: 600px;
     }
     .tarjeta .imagen__tarjeta img{
        
-        
-        width: 60%;
+       
+        width: 100%;
         height: auto; 
-        margin: 30px;
+        margin: 10px;
         transition: transform 0.2s 0.05s;
       
     } 
