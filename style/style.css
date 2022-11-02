@@ -19,7 +19,15 @@ header {
     /* text-decoration: underline; */ 
 
     
-}
+} 
+
+::-webkit-scrollbar { 
+    width: 10px; } 
+::-webkit-scrollbar-track {  
+    background: #5014c0; border-radius: 50px; }
+
+::-webkit-scrollbar-thumb { 
+    background: #c95a00; border-radius: 50px; }
 .header__logo {
     animation: ease-in animat 2s; 
     max-width: 200px; 
